@@ -1,0 +1,148 @@
+/* Vamos a usar un estilo gamer para la página por lo que vamos a
+concentrarnos en tonos oscuros que cuiden la vista mientras trabajamos*/
+:root {
+/*COLOR DE LOS FONDOS*/
+--colorFondoGeneral: #131314;
+--colorFondoHeader: #131314;
+--colorFondoMain: #43434b;
+--colorFondoFooter: #0b0b0c;
+/*COLOR DE LAS FUENTES*/
+--colorTitulo: #4fdbf7;
+--colorSubtitulo: #96efff;
+--colorTextoGeneral: #e3e3e3;
+--colorResaltado: #ffffff;
+--colorTextoSuave: #878787;
+--colorActivacion: #e73131;
+--colorActivacionBrillo: #e63f3f;
+/*TIPOS DE FUENTE*/
+--fuentePrincipal: "Candara", sans-serif;
+}
+/*==================================
+RESET A LOS PARAMETROS DEL NAVEGADOR
+====================================*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/*==Especificaciones generales==
+Usamos los siguientes parametros para todas las paginas
+ por lo cual lo mejor era estandarizar los parametros*/
+html {
+font-size: 62.5%;
+}
+body {
+display: grid;
+grid-template-rows: auto 1fr auto;
+min-height: 100vh;
+background-color: var(--colorFondoGeneral);
+color: var(--colorTextoGeneral);
+font-family: var(--fuentePrincipal);
+}
+header,
+footer,
+main {
+padding-left: 2rem;
+padding-right: 2rem;
+}
+main {
+padding-top: 2rem;
+padding-bottom: 2rem;
+}
+/*=====================================
+Especificaciones para la seccion header
+=======================================*/
+header {
+display: flex;
+flex-direction: column;
+align-items: stretch;
+justify-content: center;
+font-size: 2.5rem;
+padding-top: 1.5rem;
+width: 100%;
+padding-bottom: 2rem;
+}
+/*Elementos del header*/
+.presentacion {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+padding: 1rem 2rem;
+}
+.presentacion .titulo {
+display: flex;
+justify-content: center;
+align-items: center;
+width: 80%;
+color: var(--colorTitulo);
+}
+.presentacion .contenendor-logo {
+padding-right: 0.5rem;
+}
+.logo {
+border-radius: 1rem;
+}
+.nav {
+display: flex;
+justify-content: space-around;
+list-style: none;
+gap: 2rem;
+background-color: var(--colorFondoMain);
+border-radius: 1rem;
+}
+.nav a {
+display: block;
+text-decoration: none;
+color: var(--colorSubtitulo);
+padding: 1rem;
+font-size: 1.8rem;
+border: 1px solid transparent;
+}
+.nav a:hover {
+color: var(--colorResaltado);
+border: 1px solid var(--colorTitulo);
+border-radius: 0.5rem;
+}
+.nav a:focus {
+border: 1px solid var(--colorTitulo);
+color: var(--colorResaltado);
+border-radius: 0.5rem;
+}
+.nav a:active {
+transform: translateY(0.4rem);
+filter: brightness(0.8);
+color: var(--colorActivacion);
+border-color: var(--colorActivacionBrillo);
+}
+/*==================
+Elementos del footer
+====================*/
+footer {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+padding-bottom: 3rem;
+padding-top: 1rem;
+border-top: 1px solid var(--colorTextoSuave);
+background-color: var(--colorFondoFooter);
+}
+footer p {
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 1.4rem;
+}
+footer a {
+color: var(--colorTitulo);
+text-decoration: none;
+font-size: 1.4rem;
+}
+footer a:hover {
+text-decoration: underline;
+color: var(--colorSubtitulo);
+}
+

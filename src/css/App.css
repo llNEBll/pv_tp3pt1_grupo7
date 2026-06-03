@@ -1,0 +1,25 @@
+/*================
+Elementos del main
+==================*/
+
+main {
+    display: grid;
+    grid-template-rows: auto auto 1fr;
+    width: 100%;
+    border-top: 1px solid var(--colorTextoSuave);
+    min-height: 0;
+}
+
+/*Elementos de introduccion*/
+#introduccion {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+    border-bottom: 1px solid var(--colorTextoSuave);
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: var(--colorSubtitulo);
+}

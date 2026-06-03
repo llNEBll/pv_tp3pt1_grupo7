@@ -3,14 +3,17 @@ import Header from './components/Header'
 import ListaProyectos from './components/ListaProyectos'
 import Footer from './components/Footer'
 import Nav from './components/Nav'
-import './App.css'
+import './css/Proyectos.css'
+import './css/styles.css'
 
 const App = () => {
   return (
     <div>
       <Header />
       <Nav />
-      <ListaProyectos />
+      <main>
+        <ListaProyectos />
+      </main>
       <Footer />  
     </div>
   )
