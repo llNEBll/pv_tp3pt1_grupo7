@@ -1,16 +1,58 @@
-# React + Vite
+# TRABAJO PRÁCTICO N°3 PARTE 1: RECUPERATORIO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Programación Visual - 2026
 
-Currently, two official plugins are available:
+### Descripción del Proyecto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto fue desarrollado utilizando React y Vite. Consiste en una aplicación para la gestión de proyectos educativos, permitiendo visualizar, buscar, agregar y eliminar proyectos mediante una interfaz simple e intuitiva.
 
-## React Compiler
+### Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Visualización de proyectos educativos.
+- Búsqueda de proyectos por título.
+- Agregado de nuevos proyectos.
+- Eliminación de proyectos existentes.
+- Visualización de categoría y estado de cada proyecto.
 
-## Expanding the ESLint configuration
+### Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- JavaScript
+- CSS
+- Git / GitHub
+
+### Conceptos Aplicados
+
+- Componentes reutilizables.
+- Hooks de React (useState).
+- Manejo de eventos.
+- Renderizado dinámico mediante map().
+- Gestión de datos mediante servicios.
+- Filtrado de información mediante búsqueda.
+- Organización del proyecto en componentes y servicios.
+
+### Integrantes del Grupo 7
+
+| Nombre | Usuario de GitHub |
+|----------|----------|
+| Bravo, Nicolás Exequiel | llNEBll |
+
+### Instalación
+
+Clonar el repositorio:
+git clone https://github.com/llNEBll/pv_tp3pt1_grupo7/tree/feature-nicolas
+Ejecutar proyecto en la terminal:
+npm run dev
+
+### Materia
+
+Programación Visual
+
+### Carrera
+
+Analista Programador Universitario (APU)
+
+### Facultad
+
+Facultad de Ingeniería - UNJu
