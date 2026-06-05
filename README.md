@@ -41,8 +41,9 @@ Este proyecto fue desarrollado utilizando React y Vite. Consiste en una aplicaci
 ### Instalación
 
 Clonar el repositorio:
-git clone https://github.com/llNEBll/pv_tp3pt1_grupo7/tree/feature-nicolas
+git clone https://github.com/llNEBll/pv_tp3pt1_grupo7
 Ejecutar proyecto en la terminal:
+npm instal
 npm run dev
 
 ### Materia

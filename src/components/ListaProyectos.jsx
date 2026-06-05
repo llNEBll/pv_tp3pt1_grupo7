@@ -2,6 +2,7 @@ import proyectoService from "../services/proyectoService";
 import { useState } from "react";
 import logo2 from "../assets/logo2.png";
 
+
 const ListaProyectos = () => {
 const [proyectos, setProyectos] = useState(
     proyectoService.obtenerProyectos()

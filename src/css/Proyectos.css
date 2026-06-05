@@ -1,13 +1,13 @@
-/*==============================================
-  proyectos.css
-  Estilos específicos para proyectos.html.
-  Usa las variables definidas en style.css (:root)
-  para mantener consistencia visual con el resto
-  del sitio.
-  Estructura general: CSS Grid
-  Componentes internos (filtros, tarjetas): Flexbox
-================================================*/
+
 /*================================================
+proyectos.css
+Estilos específicos para proyectos.html.
+Usa las variables definidas en style.css (:root)
+para mantener consistencia visual con el resto
+del sitio.
+Estructura general: CSS Grid
+Componentes internos (filtros, tarjetas): Flexbox
+
   MAIN: CSS GRID DE DOS COLUMNAS
   Columna izquierda: filtros (aside) → 250px fijos
   Columna derecha: proyectos (section) → espacio restante
